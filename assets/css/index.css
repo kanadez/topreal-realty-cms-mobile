@@ -1,0 +1,18 @@
+.language_select{
+    padding: 10px 0;
+    float: right;
+}
+
+button.transparent{
+    color: #009688;
+    background-color: transparent;
+}
+
+#intro .remarks{
+    color: black;
+    padding: 10px;
+}
+
+.overlay-bg{
+    overflow: hidden;
+}

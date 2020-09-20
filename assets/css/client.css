@@ -1,0 +1,11 @@
+.client_form table.checkboxes{
+    width: 100%;
+}
+
+.client_form .header a{
+    font-size: 2em;
+}
+
+.modal{
+    padding-top: 35px;
+}

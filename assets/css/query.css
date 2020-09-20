@@ -1,0 +1,27 @@
+.search_form table.checkboxes{
+    width: 100%;
+}
+
+.search_form a.field_wrapper{
+    display: block;
+}
+
+.search_form table.checkboxes tr{
+    background: white;
+}
+
+.search_form i.fa-pencil{
+    float:right;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: #777;
+}
+
+.search_form > .field_wrapper:nth-child(2n){
+    background: rgba(239, 239, 239, 0.78);
+    padding: 6px 0 3px 0;
+}
+
+.modal-dialog{
+    padding-top: 50px;
+}

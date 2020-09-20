@@ -1,0 +1,131 @@
+.property_form .header a{
+    font-size: 2em;
+}
+
+.contact_phone_wrapper{
+    white-space: nowrap;
+}
+
+.contact_buttons_wrapper{
+    text-align: right;
+}
+
+#attachments_table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 7px 7px;
+}
+
+#attachments_table td{
+    height: 60px;
+    border: 1px solid #000;
+}
+
+.stock_badge{
+    color: rgb(76, 132, 129);
+    background-color: rgb(177, 255, 251);
+    border-color: rgb(142, 224, 220);
+}
+
+#add_photo_button{
+    float: right;
+}
+
+.zoom{
+    background: #fff url(https://topreal.top/assets/img/zoom_in.png) no-repeat scroll center center / 30% auto;
+    cursor: pointer;
+    height: 121px;
+    opacity: 0.01;
+    position: relative;
+    width: 150px;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: -121px;
+    display: block;
+}
+
+.events a{
+    margin-left: 10px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+.events span{
+    float: left;
+}
+
+.event_a{
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 7px;
+    margin-left: 6px;
+    display: inline-block;
+}
+
+#event_appointment_a{
+    background-image: url(../img/meeting.png);
+    padding: 3px 12px;
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+#event_visit_a{
+    background-image: url(../img/visit.png);
+    padding: 3px 12px;
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+.events a{
+    font-size: 2em;
+    margin-left: 21px;
+}
+
+#add_event_start_input{
+    width: 60%;
+    float: left;
+}
+
+#add_event_start_time_select{
+    line-height: 1em;
+    width: 30%;
+    margin-left: 10px;
+}
+
+#add_event_end_input{
+    width: 60%;
+    float: left;
+}
+
+#add_event_end_time_select{
+    line-height: 1em;
+    width: 30%;
+    margin-left: 10px;
+}
+
+#add_event_notification_period_input{
+    width: 40%;
+}
+
+#add_event_notification_period_input + label{
+    margin: 0 5px -2px 16px;
+}
+
+#event_notify_remove_a{
+    font-size: 2.4em;
+    margin-top: -12px;
+    display: inline-flex;
+}
+
+li.own_icon_arabic{
+    direction: rtl;
+    padding: 0 20px;
+}
+
+.modal{
+    padding-top: 35px;
+}
